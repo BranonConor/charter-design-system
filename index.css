@@ -1,0 +1,118 @@
+/* -------------- GLOBAL STYLES ---------------- */
+:root {
+    --primary-accent: #f05f7e;
+    --light-accent: #f2d1c9;
+    --heading-color: #003844;
+}
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+main {
+    display: flex;
+}
+h1, h2, h3, h4, h5, h6 {
+    padding: 1%;
+    margin: 1%;
+    width: 98%;
+    text-align: center;
+}
+h1 {
+    color: var(--primary-accent);
+}
+h2 {
+    color: black;
+}
+h3 {
+    color: var(--primary-accent);  
+}
+p {
+    padding: 1%;
+    margin: 1%;
+    width: 98%;
+}
+a {
+    text-decoration: none;
+    color: var(--primary-accent);
+}
+
+/* -------------- SIDE NAVIGATION ---------------- */
+.side-nav {
+    height: 100vh;
+    width: 150px;
+    background: black;
+    color: white;
+    position: relative;
+    left: 0;
+}
+.side-nav img {
+    width: 150px;
+    height: auto;
+    padding: 10px 0 10px 0;
+}
+.side-nav ul {
+    list-style: none;
+    height: 50vh;
+    padding: 0;
+}
+
+.side-nav li {
+    border-top: solid 1px #464646;
+    height: 90px;
+}
+.side-nav li:nth-of-type(1) {
+    border-top: none;
+}
+
+.side-nav li a {
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    z-index: 2;
+    transition: 0.3s ease all;
+}
+.side-nav li a:after {
+    content:'';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #f05f7e;
+    transition: 0.3s ease all;
+    z-index: -1;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+}
+.side-nav li a:hover:after {
+    width: 100%;
+    border-radius: 0%;
+}
+.side-nav li a:hover {
+    background: rgba(0,0,0,0.0);
+    color: white;
+}
+/* ------------------ WORKSPACE ------------------ */
+.workspace {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+.workspace iframe {
+    width: 100%;
+    height: 50vh;
+}
+iframe .svg {
+    display: none;
+}
