@@ -16,21 +16,20 @@ body {
 }
 main {
     display: flex;
+    height: 100vh;
 }
 h1, h2, h3, h4, h5, h6 {
     padding: 1%;
     margin: 1%;
     width: 98%;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 h1 {
     color: var(--primary-accent);
 }
-h2 {
+h2, h3 {
     color: black;
-}
-h3 {
-    color: var(--primary-accent);  
 }
 p {
     padding: 1%;
@@ -62,6 +61,7 @@ a {
     list-style: none;
     height: 80%;
     padding: 0;
+    margin: 0;
 }
 
 .side-nav li {
