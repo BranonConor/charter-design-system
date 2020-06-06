@@ -194,6 +194,10 @@ iframe .svg {
         top: 15px;
         right: 25px;
         padding: 5px 5px 0 5px;
+        transition: 0.4s ease all;
+    }
+    .hamburger-menu-flip {
+        transform: rotate(-180deg);
     }
     .burger1 {
         width: 90%;
@@ -201,6 +205,12 @@ iframe .svg {
         border-radius: 10px;
         background: white;
         margin: 7px;
+        transition: 0.4s ease all;
+    }
+    .burger1flip {
+        width: 80%;
+        transform: translateY(10px) rotate(135deg);
+        background: var(--primary-accent);
     }
     .burger2 {
         width: 75%;
@@ -208,6 +218,12 @@ iframe .svg {
         border-radius: 10px;
         background: var(--light-accent);
         margin: 7px;
+        transition: 0.4s ease all;
+    }
+    .burger2flip {
+        width: 0;
+        opacity: 0;
+        transform: translateX(5px);
     }
     .burger3 {
         width: 100%;
@@ -215,6 +231,12 @@ iframe .svg {
         border-radius: 10px;
         background: var(--primary-accent);
         margin: 7px;
+        transition: 0.4s ease all;
+    }
+    .burger3flip {
+        width: 80%;
+        transform: translateY(-14px) rotate(45deg);
+        background: var(--primary-accent);
     }
     .extendMenuContainer {
         height: 100vh;
