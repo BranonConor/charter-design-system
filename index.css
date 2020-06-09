@@ -217,6 +217,12 @@ iframe .svg {
 
 
 @media only screen and (max-width: 700px) {
+    /* ---------- GLOBAL MOBILE STYLES ------------------- */
+    body {
+        font-size: 18px;
+    }
+    
+    
     /*----------------- MOBILE MENU ----------------- */
     .hamburger-menu {
         width: 50px;
