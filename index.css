@@ -22,9 +22,6 @@ h1, h2, h3 {
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
-h1 {
-    color: var(--primary-accent);
-}
 h2, h3 {
     color: black;
     padding: 1%;
@@ -38,7 +35,28 @@ h4, h5, h6 {
     margin: 1%;
     width: 96%;
 }
+h1 {
+    color: var(--primary-accent);
+    font-size: 36px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 14px;
+}
+.introduction-text {
+    font-size: 18px;
+    font-weight: 300;
+}
 p {
+    font-size: 14px;
     padding: 1%;
     margin: 1%;
     width: 96%;
