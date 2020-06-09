@@ -306,9 +306,15 @@ iframe .svg {
 
 
 
-
+    /* ------------ RESIZING WORKSPACE ---------- */
     .workspace section {
         width: 90%;
         padding: 20px 5% 80px 5%;
+    }
+    .workspace iframe {
+        margin-top: 80px;
+    }
+    .workspace section iframe {
+        margin-top: 0;
     }
 }
