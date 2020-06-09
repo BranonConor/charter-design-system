@@ -27,10 +27,16 @@ h1 {
 }
 h2, h3 {
     color: black;
+    padding: 1%;
+    margin: 1%;
+    width: 96%;
 }
 h4, h5, h6 {
     text-align: left;
     font-family: 'Raleway', sans-serif;
+    padding: 1%;
+    margin: 1%;
+    width: 96%;
 }
 p {
     padding: 1%;
