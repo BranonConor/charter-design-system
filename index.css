@@ -277,6 +277,9 @@ iframe .svg {
     }
     .extendMenuContainer {
         height: 100vh;
+        background: rgba(0,0,0,0.7);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
     }
     .shrinkMenuContainer {
         height: 80px;
@@ -291,9 +294,6 @@ iframe .svg {
         position: fixed;
         top: 0;
         overflow-y: hidden;
-        background: rgba(0,0,0,0.7);
-        -webkit-backdrop-filter: blur(10px);
-        backdrop-filter: blur(10px);
     }
     .side-nav img {
         width: 80px;
