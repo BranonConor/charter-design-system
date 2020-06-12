@@ -293,6 +293,9 @@ iframe .svg {
         position: fixed;
         top: 0;
         overflow-y: hidden;
+        -webkit-box-shadow: 0px 9px 21px -12px rgba(0,0,0,0.7);
+        -moz-box-shadow: 0px 9px 21px -12px rgba(0,0,0,0.7);
+        box-shadow: 0px 9px 21px -12px rgba(0,0,0,0.7);
     }
     .side-nav img {
         width: 80px;
