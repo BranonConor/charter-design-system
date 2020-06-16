@@ -213,13 +213,27 @@ iframe .svg {
     padding: 20px 20% 80px 20%;
 }
 
+/*------------ HOME PAGE STYLES -----------*/
+.home-banner {
+    height: 15%;
+    width: 90%;
+    padding: 2% 5%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.home-banner h1 {
+    background: -webkit-linear-gradient(0deg, #F493AA 0%, #F2D1C9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 @media only screen and (max-width: 700px) {
     /* ---------- GLOBAL MOBILE STYLES ------------------- */
     body {
         font-size: 17px;
     }
-    
     
     /*----------------- MOBILE MENU ----------------- */
     .hamburger-menu {
@@ -330,5 +344,13 @@ iframe .svg {
     }
     .workspace section iframe {
         margin-top: 0;
+    }
+
+    /*----------- HOME PAGE MOBILE -----------*/
+    .home-banner {
+        padding: 80px 5% 0 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
