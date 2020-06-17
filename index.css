@@ -349,7 +349,7 @@ iframe .svg {
     }
     .side-nav li {
         border-top: solid 1px rgba(250,250,250,0.1);
-        height: 65px;
+        height: 60px;
     }
 
 
@@ -368,10 +368,23 @@ iframe .svg {
     /*----------- HOME PAGE MOBILE -----------*/
     .home-banner {
         width: 90%;
-        padding: 0 5%;
-        margin: 80px 0 0 0;
+        padding: 75px 5% 0 5%;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .side-nav li {
+        border-top: solid 1px rgba(250,250,250,0.1);
+        height: 55px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .side-nav li {
+        border-top: solid 1px rgba(250,250,250,0.1);
+        height: 45px;
     }
 }
