@@ -223,18 +223,23 @@ iframe .svg {
 
 /*------------ HOME PAGE STYLES -----------*/
 .home-banner {
-    height: 15%;
-    width: 90%;
-    padding: 2% 5%;
+    height: auto;
+    width: 96%;
+    padding: 2% 2%;
     background: black;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .home-banner h1 {
     background: -webkit-linear-gradient(0deg, #F493AA 0%, #F2D1C9 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.home-logo {
+    width: 300px;
+    height: auto;
+    padding: 50px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -248,7 +253,7 @@ iframe .svg {
         width: 50px;
         height: 50px;
         position: absolute;
-        top: 15px;
+        top: 13px;
         right: 25px;
         padding: 5px 5px 0 5px;
         transition: 0.4s ease all;
@@ -318,8 +323,14 @@ iframe .svg {
         -moz-box-shadow: 0px 9px 21px -12px rgba(0,0,0,0.7);
         box-shadow: 0px 9px 21px -12px rgba(0,0,0,0.7);
     }
-    .side-nav img {
-        width: 80px;
+    .brand {
+        justify-content: flex-start;
+    }
+    .logo {
+        margin: 10px 10px 10px 20px;
+    }
+    .side-nav svg {
+        width: 50px;
         height: auto;
         margin: 10px 10px 10px 30px;
         padding: 0;
@@ -356,7 +367,9 @@ iframe .svg {
 
     /*----------- HOME PAGE MOBILE -----------*/
     .home-banner {
-        padding: 80px 5% 0 5%;
+        width: 90%;
+        padding: 0 5%;
+        margin: 80px 0 0 0;
         display: flex;
         align-items: center;
         justify-content: center;
