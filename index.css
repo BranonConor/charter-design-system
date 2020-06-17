@@ -125,12 +125,9 @@ a {
     background-color: var(--light-accent);
     transition: 0.3s ease all;
     z-index: -1;
-    border-bottom-right-radius: 100%;
-    border-top-right-radius: 100%;
 }
 .side-nav li a:hover:after {
     width: 100%;
-    border-radius: 0%;
 }
 .side-nav li a:hover {
     background: rgba(0,0,0,0.0);
@@ -179,8 +176,18 @@ a {
     cursor: pointer;
     z-index: 5;
 }
+.brand {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .logo {
+    margin: 5px;
     transition: 1.5s ease all;
+    width: 100px;
+    height: auto;
 }
 .slide-left {
     transform: translateX(-100px);
