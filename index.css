@@ -443,10 +443,7 @@ iframe .svg {
     /* ---- Home banner arrow animation ---- */
     .home-banner i {
         font-size: 2.5rem;
-        -webkit-animation-name: hover;
-        animation-name: hover;
-        -webkit-animation-duration: 5s;
-        animation-duration: 5s;
+        -webkit-animation: hover 5s infinite;
         -moz-animation: hover 5s infinite;
         -o-animation: hover 5s infinite;
         -ms-animation: hover 5s infinite; 
@@ -454,22 +451,27 @@ iframe .svg {
     }
     @-webkit-keyframes hover {
         0%   {
+            transform: translateY(0px) rotate(0deg);
             -webkit-transform: translateY(0px) rotate(0deg);
             color: white;
         }
         25%  {
+            transform: translateY(0px) rotate(0deg);
             -webkit-transform: translateY(10px) rotate(0deg);
             color: #F2D1C9;
         }
         50%  {
+            transform: translateY(0px) rotate(360deg);
             -webkit-transform: translateY(0px) rotate(360deg);
             color: #f05f7e;
         }
-        75% {
+        75% {            
+            transform: translateY(0px) rotate(0deg);
             -webkit-transform: translateY(10px) rotate(0deg);
             color: #F2D1C9;
         }
         100% {
+            transform: translateY(0px) rotate(0deg);
             -webkit-transform: translateY(0px) rotate(0deg);
             color: white;
         }
