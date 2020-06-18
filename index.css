@@ -426,7 +426,7 @@ iframe .svg {
         align-items: center;
         justify-content: center;
     }
-    .home-banner i{
+    .home-banner a{
         display: block;
         text-align: center;
         color: white;
