@@ -445,7 +445,7 @@ iframe .svg {
         -webkit-animation: hover 5s infinite;
         -moz-animation: hover 5s infinite;
         -o-animation: hover 5s infinite;
-        -ms-transition: hover 5s infinite; 
+        -ms-animation: hover 5s infinite; 
         animation: hover 5s infinite;
     }
     @-webkit-keyframes hover {
