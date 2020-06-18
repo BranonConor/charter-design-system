@@ -445,11 +445,23 @@ iframe .svg {
         border-top: solid 1px rgba(250,250,250,0.1);
         height: 55px;
     }
+    .home-banner h1 {
+        font-size: 2.25rem;
+    }
+    .home-banner svg {
+        width: 300px;
+    }
 }
 
 @media only screen and (max-width: 340px) {
     .side-nav li {
         border-top: solid 1px rgba(250,250,250,0.1);
         height: 45px;
+    }
+    .home-banner h1 {
+        font-size: 1.8rem;
+    }
+    .home-banner svg {
+        width: 250px;
     }
 }
