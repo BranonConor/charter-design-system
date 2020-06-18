@@ -248,7 +248,7 @@ iframe .svg {
     width: 300px;
     height: auto;
 }
-.home-banner i{
+.home-banner a{
     display: none;
 }
 .card-container {
@@ -288,7 +288,11 @@ iframe .svg {
 .card a {
     text-decoration: underline;
 }
-
+@media only screen and (max-width: 1700px) {
+    .card-container {
+        justify-content: center;
+    }
+}
 @media only screen and (max-width: 700px) {
     /* ---------- GLOBAL MOBILE STYLES ------------------- */
     body {
@@ -433,9 +437,6 @@ iframe .svg {
         overflow: hidden;
         position: relative;
         top: -100px;
-    }
-    .card-container {
-        justify-content: center;
     }
 }
 
