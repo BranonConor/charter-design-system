@@ -438,6 +438,32 @@ iframe .svg {
         position: relative;
         top: -100px;
     }
+
+    /* ---- Home banner arrow animation ---- */
+    .home-banner i {
+        animation: hover 5s infinite;
+    }
+    @keyframes hover {
+        0%   {
+            transform: translateY(0px);
+            color: white;
+        }
+        25%  {
+            transform: translateY(10px);
+            color: #F2D1C9;
+        }
+        50%  {
+            transform: translateY(0px);
+            color: #f05f7e;
+        }
+        75% {
+            transform: translateY(10px);
+            color: #F2D1C9;
+        }
+        100% {transform: translateY(0px);
+            color: white;
+        }
+    }
 }
 
 @media only screen and (max-width: 380px) {
