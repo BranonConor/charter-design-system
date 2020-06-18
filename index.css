@@ -67,9 +67,6 @@ a {
     text-decoration: none;
     color: var(--primary-accent);
     cursor: pointer;
-    padding: 1%;
-    margin: 1%;
-    width: 96%;
 }
 .text-block {
     padding: 40px 0 40px 0;
@@ -287,6 +284,9 @@ iframe .svg {
 }
 .card a {
     text-decoration: underline;
+    padding: 1%;
+    margin: 1%;
+    width: 96%;
 }
 @media only screen and (max-width: 1700px) {
     .card-container {
