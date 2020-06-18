@@ -239,7 +239,9 @@ iframe .svg {
 .home-logo {
     width: 300px;
     height: auto;
-    padding: 50px;
+}
+.home-banner i{
+    display: none;
 }
 
 @media only screen and (max-width: 700px) {
@@ -368,10 +370,37 @@ iframe .svg {
     /*----------- HOME PAGE MOBILE -----------*/
     .home-banner {
         width: 90%;
-        padding: 75px 5% 0 5%;
+        height: 100vh;
+        padding: 0 5% 0 5%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .home-banner i{
+        display: block;
+        color: white;
+        font-size: 2rem;
+    }
+    #home-anchor {
+        height: 0;
+        overflow: hidden;
+        position: relative;
+        top: -100px;
+    }
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 32px 0 32px 0;
+    }
+    .card {
+        width: 300px;
+        height: 200px;
+        background: black;
+        border-radius: 10px;
+        margin: 8px;
     }
 }
 
