@@ -441,7 +441,99 @@ iframe .svg {
 
     /* ---- Home banner arrow animation ---- */
     .home-banner i {
+        -webkit-animation: hover 5s infinite;
+        -moz-animation: hover 5s infinite;
+        -o-animation: hover 5s infinite;
+        -ms-transition: hover 5s infinite; 
         animation: hover 5s infinite;
+    }
+    @-webkit-keyframes hover {
+        0%   {
+            -webkit-transform: translateY(0px);
+            color: white;
+        }
+        25%  {
+            -webkit-transform: translateY(10px);
+            color: #F2D1C9;
+        }
+        50%  {
+            -webkit-transform: translateY(0px);
+            color: #f05f7e;
+        }
+        75% {
+            -webkit-transform: translateY(10px);
+            color: #F2D1C9;
+        }
+        100% {
+            -webkit-transform: translateY(0px);
+            color: white;
+        }
+    }
+    @-moz-keyframes hover {
+        0%   {
+            -moz-transform: translateY(0px);
+            color: white;
+        }
+        25%  {
+            -moz-transform: translateY(10px);
+            color: #F2D1C9;
+        }
+        50%  {
+            -moz-transform: translateY(0px);
+            color: #f05f7e;
+        }
+        75% {
+            -moz-transform: translateY(10px);
+            color: #F2D1C9;
+        }
+        100% {
+            -moz-transform: translateY(0px);
+            color: white;
+        }
+    }
+    @-o-keyframes hover {
+        0%   {
+            -o-transform: translateY(0px);
+            color: white;
+        }
+        25%  {
+            -o-transform: translateY(10px);
+            color: #F2D1C9;
+        }
+        50%  {
+            -o-transform: translateY(0px);
+            color: #f05f7e;
+        }
+        75% {
+            -o-transform: translateY(10px);
+            color: #F2D1C9;
+        }
+        100% {
+            -o-transform: translateY(0px);
+            color: white;
+        }
+    }
+    @-ms-keyframes hover {
+        0%   {
+            -ms-transform: translateY(0px);
+            color: white;
+        }
+        25%  {
+            -ms-transform: translateY(10px);
+            color: #F2D1C9;
+        }
+        50%  {
+            -ms-transform: translateY(0px);
+            color: #f05f7e;
+        }
+        75% {
+            -ms-transform: translateY(10px);
+            color: #F2D1C9;
+        }
+        100% {
+            -ms-transform: translateY(0px);
+            color: white;
+        }
     }
     @keyframes hover {
         0%   {
