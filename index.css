@@ -8,6 +8,7 @@ html {
     margin: 0;
     padding: 0;
     font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
 }
 body {
     margin: 0;
@@ -66,6 +67,9 @@ a {
     text-decoration: none;
     color: var(--primary-accent);
     cursor: pointer;
+    padding: 1%;
+    margin: 1%;
+    width: 96%;
 }
 .text-block {
     padding: 40px 0 40px 0;
@@ -222,6 +226,10 @@ iframe .svg {
 }
 
 /*------------ HOME PAGE STYLES -----------*/
+.home-content p span {
+    font-weight: bolder;
+    color: #f05f7e;
+}
 .home-banner {
     height: auto;
     width: 96%;
@@ -239,7 +247,46 @@ iframe .svg {
 .home-logo {
     width: 300px;
     height: auto;
-    padding: 50px;
+}
+.home-banner i{
+    display: none;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 32px 0 32px 0;
+}
+.card {
+    width: 300px;
+    height: 200px;
+    background: white;
+    border-radius: 10px;
+    margin: 8px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 16px;
+    -webkit-box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
+    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
+}
+.card h2 {
+    text-align: left;
+    color: #f05f7e;
+}
+.card i {
+    font-size: 2rem;
+    padding: 8px;
+    background: -webkit-linear-gradient(0deg, #F493AA 0%, #F2D1C9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card a {
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 700px) {
@@ -368,9 +415,26 @@ iframe .svg {
     /*----------- HOME PAGE MOBILE -----------*/
     .home-banner {
         width: 90%;
-        padding: 75px 5% 0 5%;
+        height: 100vh;
+        padding: 0 5% 0 5%;
         display: flex;
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
+    }
+    .home-banner i{
+        display: block;
+        text-align: center;
+        color: white;
+        font-size: 2rem;
+    }
+    #home-anchor {
+        height: 0;
+        overflow: hidden;
+        position: relative;
+        top: -100px;
+    }
+    .card-container {
         justify-content: center;
     }
 }
