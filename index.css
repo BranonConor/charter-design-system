@@ -442,9 +442,11 @@ iframe .svg {
 
     /* ---- Home banner arrow animation ---- */
     .home-banner i {
-        display: block;
         font-size: 2.5rem;
-        -webkit-animation: hover 5s infinite;
+        -webkit-animation-name: hover;
+        animation-name: hover;
+        -webkit-animation-duration: 5s;
+        animation-duration: 5s;
         -moz-animation: hover 5s infinite;
         -o-animation: hover 5s infinite;
         -ms-animation: hover 5s infinite; 
