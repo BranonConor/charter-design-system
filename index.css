@@ -261,10 +261,10 @@ iframe .svg {
 .card {
     width: 300px;
     height: 200px;
-    background: black;
+    background: white;
     border-radius: 10px;
     margin: 8px;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
