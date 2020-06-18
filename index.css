@@ -450,11 +450,11 @@ iframe .svg {
     }
     @-webkit-keyframes hover {
         0%   {
-            -webkit-transform: translateY(0px);
+            -webkit-transform: translateY(0px) rotate(0deg);
             color: white;
         }
         25%  {
-            -webkit-transform: translateY(10px);
+            -webkit-transform: translateY(10px) rotate(0deg);
             color: #F2D1C9;
         }
         50%  {
@@ -462,11 +462,11 @@ iframe .svg {
             color: #f05f7e;
         }
         75% {
-            -webkit-transform: translateY(10px);
+            -webkit-transform: translateY(10px) rotate(0deg);
             color: #F2D1C9;
         }
         100% {
-            -webkit-transform: translateY(0px);
+            -webkit-transform: translateY(0px) rotate(0deg);
             color: white;
         }
     }
