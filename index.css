@@ -288,6 +288,14 @@ iframe .svg {
     margin: 1%;
     width: 96%;
 }
+/*----------- FORMS PAGE STYLES -------------- */
+.workspace .form-iframe {
+    width: 100%;
+    height: 50vh;
+}
+
+
+/* --------------- MEDIA QUERIES --------------- */
 @media only screen and (max-width: 1700px) {
     .card-container {
         justify-content: center;
