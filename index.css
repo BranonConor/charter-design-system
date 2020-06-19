@@ -305,7 +305,7 @@ iframe .svg {
         justify-content: center;
     }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 850px) {
     /* ---------- GLOBAL MOBILE STYLES ------------------- */
     body {
         font-size: 17px;
