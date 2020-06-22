@@ -297,7 +297,18 @@ iframe .svg {
 .guidelines + section a {
     text-decoration: underline;
 }
-
+/* ---------PAGE TRANSITION ------------- */
+.swiper {
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    transition: 0.4s ease all;
+}
+.swipe-up {
+    height: 100vh;
+    transition: 0.4s ease all;
+}
 
 
 /*------------- LOADING SCREEN ------------- */
@@ -406,7 +417,15 @@ iframe .svg {
     body {
         font-size: 17px;
     }
-    
+    /* ---------- PRELOADER ------------ */
+    .section-left, .section-right {
+        background: linear-gradient(180deg, #FFCE94 3.73%, #F05F7E 100%);
+    }
+    .cube1, .cube2 {
+        top: 42vh;
+        left: 43vw;
+        background: black;
+    }
     /*----------------- MOBILE MENU ----------------- */
     .hamburger-menu {
         width: 50px;
