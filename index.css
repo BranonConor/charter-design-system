@@ -418,13 +418,9 @@ iframe .svg {
         font-size: 17px;
     }
     /* ---------- PRELOADER ------------ */
-    .section-left, .section-right {
-        background: linear-gradient(180deg, #FFCE94 3.73%, #F05F7E 100%);
-    }
     .cube1, .cube2 {
         top: 42vh;
         left: 43vw;
-        background: black;
     }
     /*----------------- MOBILE MENU ----------------- */
     .hamburger-menu {
