@@ -644,8 +644,6 @@ textarea {
         position: relative;
         top: -100px;
     }
-    /*--- CONTACT FORM --- */
-    
 
     /* ---- Home banner arrow animation ---- */
     .home-banner i {
@@ -772,6 +770,42 @@ textarea {
     }
 }
 
+@media only screen and (max-width: 700px) {
+    /*--- CONTACT FORM --- */
+    .contact-container {
+        height: auto;
+    }
+    form {
+        height: auto;
+    }
+    .name, .info, .message, .submit {
+        flex-direction: column;
+    }
+    input, textarea {
+        width: 330px;
+    }
+    form p {
+        padding: 8px 8px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    /*--- CONTACT FORM --- */
+    .contact-container {
+        height: auto;
+    }
+    form {
+        height: auto;
+    }
+    .name, .info, .message, .submit {
+        flex-direction: column;
+    }
+    input, textarea {
+        width: 330px;
+    }
+    form p {
+        padding: 8px 8px;
+    }
+}
 @media only screen and (max-width: 380px) {
     .side-nav li {
         border-top: solid 1px rgba(250,250,250,0.1);
