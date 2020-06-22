@@ -39,7 +39,7 @@ document.onreadystatechange = function () {
             setTimeout(() => {
                 moveBack();
             }, 1000);
-        }, 2000);
+        }, 1000);
     }
 }
 //Hard Coded Preloader

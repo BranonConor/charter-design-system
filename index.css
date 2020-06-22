@@ -419,7 +419,7 @@ iframe .svg {
     }
     /* ---------- PRELOADER ------------ */
     .section-left, .section-right {
-        background: linear-gradient(180deg, #F493AA 0%, #F2D1C9 100%);
+        background: linear-gradient(180deg, #FFCE94 3.73%, #F05F7E 100%);
     }
     .cube1, .cube2 {
         top: 42vh;
