@@ -316,9 +316,6 @@ iframe .svg {
     top: 0;
     z-index: 1001;
   }
-  .spinner h1 {
-      color: #f05f73;
-  }
   .cube1, .cube2 {
     background: linear-gradient(66.41deg, #FFCE94 3.73%, #F05F7E 100%);
     width: 30px;
