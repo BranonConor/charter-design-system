@@ -26,32 +26,38 @@ h1, h2, h3 {
 }
 h2, h3 {
     color: black;
-    padding: 1%;
-    margin: 1%;
-    width: 96%;
+    width: 100%;
 }
 h4, h5, h6 {
     text-align: left;
-    padding: 1%;
-    margin: 1%;
-    width: 96%;
+    width: 100%;
 }
 h1 {
     color: var(--primary-accent);
     font-size: 2.3em;
     font-weight: 700;
+    padding: 16px 0;
+    margin: 0 0;
 }
 h2 {
     font-size: 1.75em;
+    padding: 16px 0;
+    margin: 0 0;
 }
 h3 {
     font-size: 1.5em;
+    padding: 16px 0;
+    margin: 0 0;
 }
 h4 {
     font-size: 1.25em;
+    padding: 8px 0;
+    margin: 0 0;
 }
 h5 {
     font-size: 1em;
+    padding: 8px 0;
+    margin: 0 0;
 }
 .introduction-text {
     font-size: 1.2em;
@@ -59,17 +65,19 @@ h5 {
 }
 p {
     font-size: 1em;
-    padding: 1%;
-    margin: 1%;
-    width: 96%;
+    width: 100%;
+    padding: 8px 0;
+    margin: 0 0;
 }
 a {
     text-decoration: none;
     color: var(--primary-accent);
     cursor: pointer;
+    padding: 8px 0;
+    margin: 0 0;
 }
 .text-block {
-    padding: 40px 0 40px 0;
+    padding: 32px 0 32px 0;
 }
 /* -------------- SIDE NAVIGATION ---------------- */
 .side-nav {
@@ -221,6 +229,9 @@ iframe .svg {
     width: 60%;
     padding: 20px 20% 80px 20%;
 }
+.workspace h4 {
+    padding: 32px 0 16px 0;
+}
 
 /*------------ HOME PAGE STYLES -----------*/
 .home-content p span {
@@ -284,9 +295,7 @@ iframe .svg {
 }
 .card a {
     text-decoration: underline;
-    padding: 1%;
-    margin: 1%;
-    width: 96%;
+    width: 100%;
 }
 /*----------- FORMS PAGE STYLES -------------- */
 .workspace .form-iframe {
@@ -297,18 +306,6 @@ iframe .svg {
 .guidelines + section a {
     text-decoration: underline;
 }
-/* ---------PAGE TRANSITION ------------- */
-.swiper {
-    position: absolute;
-    bottom: 0;
-    height: 0;
-    width: 100%;
-    transition: 0.4s ease all;
-}
-.swipe-up {
-    height: 100vh;
-    transition: 0.4s ease all;
-}
 
 
 /*------------- LOADING SCREEN ------------- */
@@ -318,6 +315,9 @@ iframe .svg {
     position: relative;
     top: 0;
     z-index: 1001;
+  }
+  .spinner h1 {
+      color: #f05f73;
   }
   .cube1, .cube2 {
     background: linear-gradient(66.41deg, #FFCE94 3.73%, #F05F7E 100%);
