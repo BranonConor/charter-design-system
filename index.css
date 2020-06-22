@@ -320,7 +320,7 @@ iframe .svg {
     height: 30px;
     position: absolute;
     top: 45%;
-    left: 45vw; 
+    left: 47.5vw; 
     border-radius: 10px;
     -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
     animation: sk-cubemove 1.8s infinite ease-in-out;
@@ -415,7 +415,7 @@ iframe .svg {
     /* ---------- PRELOADER ------------ */
     .cube1, .cube2 {
         top: 42vh;
-        left: 43vw;
+        left: 40vw;
     }
     /*----------------- MOBILE MENU ----------------- */
     .hamburger-menu {
