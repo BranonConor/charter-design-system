@@ -791,7 +791,12 @@ textarea {
 @media only screen and (max-width: 460px) {
     /*--- CONTACT FORM --- */
     input, textarea {
-        width: 220px;
+        width: 260px;
+    }
+}
+@media only screen and (max-width: 410px) {
+    input, textarea {
+        width: 240px;
     }
 }
 @media only screen and (max-width: 380px) {
@@ -817,5 +822,9 @@ textarea {
     }
     .home-banner svg {
         width: 250px;
+    }
+    input, textarea {
+        width: 200px;
+        height: 40px;
     }
 }
