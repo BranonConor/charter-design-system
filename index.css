@@ -788,22 +788,10 @@ textarea {
         padding: 8px 8px;
     }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 460px) {
     /*--- CONTACT FORM --- */
-    .contact-container {
-        height: auto;
-    }
-    form {
-        height: auto;
-    }
-    .name, .info, .message, .submit {
-        flex-direction: column;
-    }
     input, textarea {
-        width: 330px;
-    }
-    form p {
-        padding: 8px 8px;
+        width: 220px;
     }
 }
 @media only screen and (max-width: 380px) {
