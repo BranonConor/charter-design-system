@@ -71,11 +71,9 @@ a {
     text-decoration: none;
     color: var(--primary-accent);
     cursor: pointer;
-    padding: 8px 0;
-    margin: 0 0;
 }
 .text-block {
-    padding: 32px 0 32px 0;
+    padding: 16px 0 16px 0;
 }
 /* -------------- SIDE NAVIGATION ---------------- */
 .side-nav {
@@ -152,7 +150,7 @@ a {
     z-index: -1;
 }
 .side-nav:hover .menu-changer {
-    left: 155px;
+    left: 140px;
     transform: rotate(-180deg);
     z-index: 5;
 }
