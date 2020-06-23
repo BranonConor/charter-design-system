@@ -316,6 +316,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 4px;
 }
 footer p {
     text-align: center;
@@ -802,6 +803,15 @@ textarea {
         100% {transform: translateY(0px);
             color: white;
         }
+    }
+    /*---- FOOTER ----*/
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        height: 75px;
+    }
+    footer p {
+        font-size: 0.8rem;
     }
 }
 
