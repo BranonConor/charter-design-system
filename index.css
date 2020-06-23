@@ -71,8 +71,6 @@ a {
     text-decoration: none;
     color: var(--primary-accent);
     cursor: pointer;
-    padding: 8px 0;
-    margin: 0 0;
 }
 .text-block {
     padding: 32px 0 32px 0;
