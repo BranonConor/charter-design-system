@@ -658,6 +658,7 @@ textarea {
     }
     .workspace section iframe {
         margin-top: 0;
+        overflow: hidden;
     }
 
     /*----------- HOME PAGE MOBILE -----------*/
