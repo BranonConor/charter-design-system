@@ -830,7 +830,7 @@ textarea {
         width: 330px;
     }
     form p {
-        padding: 8px 8px;
+        padding: 8px 0;
     }
 }
 @media only screen and (max-width: 460px) {
