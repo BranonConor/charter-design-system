@@ -220,6 +220,8 @@ a {
     -webkit-box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
     -moz-box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
     box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
     border-radius: 10px;
 }
 iframe .svg {
@@ -658,7 +660,6 @@ textarea {
     }
     .workspace section iframe {
         margin-top: 0;
-        overflow: hidden;
     }
 
     /*----------- HOME PAGE MOBILE -----------*/
