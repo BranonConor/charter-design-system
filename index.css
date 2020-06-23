@@ -320,7 +320,7 @@ iframe .svg {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 32px 0 32px 0;
+    margin: 32px 0 8px 0;
 }
 .vision-card {
     display: flex;
