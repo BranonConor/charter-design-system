@@ -223,6 +223,7 @@ a {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+    margin: 8px 0 8px 0;
 }
 iframe .svg {
     display: none;
@@ -232,7 +233,7 @@ iframe .svg {
     padding: 20px 20% 80px 20%;
 }
 .workspace h4 {
-    padding: 32px 0 16px 0;
+    padding: 16px 0 16px 0;
 }
 
 /*------------ HOME PAGE STYLES -----------*/
