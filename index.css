@@ -315,6 +315,39 @@ iframe .svg {
     box-shadow: none;
     border: 2px solid #f4f4f4;
 }
+/*-------------- PURPOSE PAGE STYLES --------------------*/
+.vision-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0 32px 0;
+}
+.vision-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 250px;
+    height: 250px;
+}
+.vision-card i {
+    font-size: 2.5rem;
+    text-align: left;
+    padding: 4px;
+    background: -webkit-linear-gradient(0deg, #F493AA 0%, #F2D1C9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s ease all;
+}
+.vision-card p {
+    transition: 0.3s ease all;
+}
+.vision-card:hover i {
+    transform: translateY(-10px);
+}
+.vision-card:hover p {
+    transform: translateY(10px);
+}
 /* ----------- FORMS PAGE STYLES -------------- */
 .workspace .form-iframe {
     width: 100%;
