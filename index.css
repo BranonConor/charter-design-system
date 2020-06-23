@@ -150,7 +150,7 @@ a {
     z-index: -1;
 }
 .side-nav:hover .menu-changer {
-    left: 155px;
+    left: 140px;
     transform: rotate(-180deg);
     z-index: 5;
 }
