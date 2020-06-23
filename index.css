@@ -329,6 +329,8 @@ iframe .svg {
     align-items: flex-start;
     width: 250px;
     height: 250px;
+    padding: 4px;
+    margin: 4px;
 }
 .vision-card i {
     font-size: 2.5rem;
@@ -567,7 +569,14 @@ textarea {
         padding: 16px 10% 32px 10%;
     }
 }
-
+@media only screen and (max-width: 1100px) {
+    .vision-card-wrapper {
+        flex-direction: column;
+    }
+    .vision-card {
+        width: 400px;
+    }
+}
 @media only screen and (max-width: 850px) {
     /* ---------- GLOBAL MOBILE STYLES ------------------- */
     body {
@@ -891,6 +900,9 @@ textarea {
     input, textarea {
         width: 260px;
     }
+    .vision-card {
+        width: 300px;
+    }
 }
 @media only screen and (max-width: 410px) {
     input, textarea {
@@ -924,5 +936,8 @@ textarea {
     input, textarea {
         width: 200px;
         height: 40px;
+    }
+    .vision-card {
+        width: 288px;
     }
 }
