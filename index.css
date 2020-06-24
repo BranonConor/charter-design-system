@@ -360,6 +360,9 @@ iframe .svg {
 .card-col-right svg {
     width: 90%;
     height: auto;
+    -webkit-box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
+    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
 }
 /*-------------- PURPOSE PAGE STYLES --------------------*/
 .vision-card-wrapper {
