@@ -315,6 +315,52 @@ iframe .svg {
     box-shadow: none;
     border: 2px solid #f4f4f4;
 }
+/*-------------- GUIDELINES PAGE STYLES --------------------*/
+.guidelines-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0 8px 0;
+}
+.guidelines-card {
+    width: 100%;
+    height: auto;
+    padding: 4px;
+    margin: 16px 4px 18px 4px;
+}
+.guidelines-card li {
+    margin: 8px 0;
+}
+.full-width {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.two-col {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.card-col-left, .card-col-right {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-col-left {
+    align-items: flex-start;
+    padding-right: 8px;
+}
+.card-col-right {
+    align-items: flex-end;
+}
+.card-col-right svg {
+    width: 90%;
+    height: auto;
+}
 /*-------------- PURPOSE PAGE STYLES --------------------*/
 .vision-card-wrapper {
     display: flex;
@@ -330,9 +376,9 @@ iframe .svg {
     width: 250px;
     height: 250px;
     padding: 4px;
-    margin: 4px;
+    margin: 16px 4px 18px 4px;
 }
-.vision-card i {
+.vision-card i, .guidelines-card i {
     font-size: 2.5rem;
     text-align: left;
     padding: 4px;
@@ -341,13 +387,13 @@ iframe .svg {
     -webkit-text-fill-color: transparent;
     transition: 0.3s ease all;
 }
-.vision-card p {
+.vision-card p, .guidelines-card p, .guidelines-card ol {
     transition: 0.3s ease all;
 }
-.vision-card:hover i {
+.vision-card:hover i, .guidelines-card:hover i {
     transform: translateY(-10px);
 }
-.vision-card:hover p {
+.vision-card:hover p, .guidelines-card:hover p, .guidelines-card:hover ol {
     transform: translateY(10px);
 }
 /* ----------- FORMS PAGE STYLES -------------- */
@@ -567,6 +613,20 @@ textarea {
     .card-container {
         width: 80%;
         padding: 16px 10% 32px 10%;
+    }
+    .two-col {
+        flex-direction: column;
+    }
+    .card-col-left {
+        width: 100%;
+    }
+    .card-col-right {
+        justify-content: center;
+        align-items: center;
+    }
+    .card-col-right svg {
+        width: 400px;
+        height: auto;
     }
 }
 @media only screen and (max-width: 1100px) {
@@ -903,6 +963,9 @@ textarea {
     .vision-card {
         width: 300px;
     }
+    .card-col-right svg {
+        width: 300px;
+    }
 }
 @media only screen and (max-width: 410px) {
     input, textarea {
@@ -938,6 +1001,6 @@ textarea {
         height: 40px;
     }
     .vision-card {
-        width: 288px;
+        width: 300px;
     }
 }
