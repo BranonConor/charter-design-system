@@ -355,11 +355,60 @@ iframe .svg {
     padding-right: 8px;
 }
 .card-col-right {
+    justify-content: center;
     align-items: flex-end;
 }
-.card-col-right svg {
-    width: 90%;
-    height: auto;
+.svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.atomic {
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    width: 25%;
+    height: 25%;
+    transition: 0.8s cubic-bezier(0.645, 0.045, 0.355, 1) all;
+}
+.molecular {
+    position: absolute;
+    bottom: 0;
+    z-index: 4;
+    width: 45%;
+    height: 45%;
+    transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) all;
+}
+.substance {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    width: 65%;
+    height: 65%;
+    transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) all;
+}
+.material {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    width: 85%;
+    height: 85%;
+    transition: 0.8s cubic-bezier(0.645, 0.045, 0.355, 1) all;
+}
+.card-col-right:hover .atomic {
+    transform: translateY(100px);
+}
+.card-col-right:hover .molecular {
+    transform: translateY(50px);
+}
+.card-col-right:hover .substance {
+    transform: translateY(-50px);
+}
+.card-col-right:hover .material {
+    transform: translateY(-100px);
 }
 /*-------------- PURPOSE PAGE STYLES --------------------*/
 .vision-card-wrapper {
@@ -387,13 +436,13 @@ iframe .svg {
     -webkit-text-fill-color: transparent;
     transition: 0.3s ease all;
 }
-.vision-card p, .guidelines-card p, .guidelines-card ol {
+.vision-card p {
     transition: 0.3s ease all;
 }
-.vision-card:hover i, .guidelines-card:hover i {
+.vision-card:hover i {
     transform: translateY(-10px);
 }
-.vision-card:hover p, .guidelines-card:hover p, .guidelines-card:hover ol {
+.vision-card:hover p {
     transform: translateY(10px);
 }
 /* ----------- FORMS PAGE STYLES -------------- */
@@ -609,6 +658,9 @@ textarea {
 }
 
 /* --------------- MEDIA QUERIES --------------- */
+@media only screen and (max-width: 1350px) {
+    
+}
 @media only screen and (max-width: 1150px) {
     .card-container {
         width: 80%;
@@ -621,12 +673,12 @@ textarea {
         width: 100%;
     }
     .card-col-right {
+        width: 100%;
         justify-content: center;
         align-items: center;
     }
-    .card-col-right svg {
-        width: 400px;
-        height: auto;
+    .svg-container {
+        width: 100%;
     }
 }
 @media only screen and (max-width: 1100px) {
@@ -961,9 +1013,6 @@ textarea {
         width: 260px;
     }
     .vision-card {
-        width: 300px;
-    }
-    .card-col-right svg {
         width: 300px;
     }
 }
