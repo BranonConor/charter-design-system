@@ -355,14 +355,60 @@ iframe .svg {
     padding-right: 8px;
 }
 .card-col-right {
+    justify-content: center;
     align-items: flex-end;
 }
-.card-col-right svg {
-    width: 90%;
-    height: auto;
-    -webkit-box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
-    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
+.svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.atomic {
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    width: 100px;
+    height: 100px;
+    transition: 0.9s cubic-bezier(0.645, 0.045, 0.355, 1) all;
+}
+.molecular {
+    position: absolute;
+    bottom: 0;
+    z-index: 4;
+    width: 200px;
+    height: 200px;
+    transition: 0.6s cubic-bezier(0.645, 0.045, 0.355, 1) all;
+}
+.substance {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    width: 300px;
+    height: 300px;
+    transition: 0.6s cubic-bezier(0.645, 0.045, 0.355, 1) all;
+}
+.material {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    width: 400px;
+    height: 400px;
+    transition: 0.9s cubic-bezier(0.645, 0.045, 0.355, 1) all;
+}
+.card-col-right:hover .atomic {
+    transform: translateY(100px);
+}
+.card-col-right:hover .molecular {
+    transform: translateY(50px);
+}
+.card-col-right:hover .substance {
+    transform: translateY(-50px);
+}
+.card-col-right:hover .material {
+    transform: translateY(-100px);
 }
 /*-------------- PURPOSE PAGE STYLES --------------------*/
 .vision-card-wrapper {
@@ -390,13 +436,13 @@ iframe .svg {
     -webkit-text-fill-color: transparent;
     transition: 0.3s ease all;
 }
-.vision-card p, .guidelines-card p, .guidelines-card ol {
+.vision-card p {
     transition: 0.3s ease all;
 }
-.vision-card:hover i, .guidelines-card:hover i {
+.vision-card:hover i {
     transform: translateY(-10px);
 }
-.vision-card:hover p, .guidelines-card:hover p, .guidelines-card:hover ol {
+.vision-card:hover p {
     transform: translateY(10px);
 }
 /* ----------- FORMS PAGE STYLES -------------- */
