@@ -217,9 +217,9 @@ a {
 .workspace section iframe {
     width: 100%;
     height: 35vh;
-    -webkit-box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
-    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.2);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -288,9 +288,9 @@ iframe .svg {
     justify-content: flex-start;
     align-items: flex-start;
     padding: 16px;
-    -webkit-box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
-    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.2);
     transition: 0.2s ease all;
 }
 .card h2 {
@@ -410,6 +410,65 @@ iframe .svg {
 .card-col-right:hover .material {
     transform: translateY(-100px);
 }
+.link-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    color: white;
+    background: #CED3DC;
+    margin: 32px 0 0 0;
+    padding: 16px 0;
+}
+.link-section h2 {
+    width: 100%;
+    color: #363f55;
+}
+.link-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25%;
+    padding: 8px 0;
+}
+.link-column h5 {
+    text-align: center;
+    color: #363f55;
+}
+.link-column a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 8px;
+    padding: 4px 4px 4px 16px;
+    width: 180px;
+    height: 35px;
+    background: white;
+    color: #363f55;
+    border: 2px solid white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 9px 12px -5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 9px 12px -5px rgba(0,0,0,0.15);
+    box-shadow: 0px 9px 12px -5px rgba(0,0,0,0.15);
+    transition: 0.2s ease all;
+}
+.link-column a:hover {
+    transform: translateY(1px);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 2px solid #f4f4f4;
+}
+.link-column a i {
+    margin: 4px 8px 4px 4px;
+    background: -webkit-linear-gradient(0deg, #F493AA 0%, #F2D1C9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.1rem;
+}
+
 /*-------------- PURPOSE PAGE STYLES --------------------*/
 .vision-card-wrapper {
     display: flex;
@@ -583,9 +642,9 @@ form {
     width: 650px;
     padding: 16px;
     margin: 0;
-    -webkit-box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
-    box-shadow: 0px 8px 20px -4px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.2);
     border-radius: 10px;
 }
 .headings h2 {
@@ -692,6 +751,11 @@ textarea {
         width: 400px;
     }
 }
+@media only screen and (max-width: 1020px) {
+    .link-column {
+        width: 50%;
+    }
+}
 @media only screen and (max-width: 850px) {
     /* ---------- GLOBAL MOBILE STYLES ------------------- */
     body {
@@ -774,9 +838,9 @@ textarea {
         top: 0;
         z-index: 100;
         overflow-y: hidden;
-        -webkit-box-shadow: 0px 9px 21px -12px rgba(0,0,0,0.7);
-        -moz-box-shadow: 0px 9px 21px -12px rgba(0,0,0,0.7);
-        box-shadow: 0px 9px 21px -12px rgba(0,0,0,0.7);
+        -webkit-box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.2);
+        -moz-box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.2);
     }
     .brand {
         justify-content: flex-start;
@@ -1020,6 +1084,14 @@ textarea {
     }
     .vision-card {
         width: 300px;
+    }
+    .link-section {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .link-column a {
+        width: 200px;
     }
 }
 @media only screen and (max-width: 410px) {
