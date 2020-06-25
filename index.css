@@ -410,6 +410,64 @@ iframe .svg {
 .card-col-right:hover .material {
     transform: translateY(-100px);
 }
+.link-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    color: white;
+    background: #CED3DC;
+    margin: 32px 0 0 0;
+    padding: 16px 0;
+}
+.link-section h2 {
+    width: 100%;
+    color: #363f55;
+}
+.link-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25%;
+    padding: 8px 0;
+}
+.link-column h5 {
+    text-align: center;
+    color: #363f55;
+}
+.link-column a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 8px;
+    padding: 4px 4px 4px 16px;
+    width: 180px;
+    height: 35px;
+    background: white;
+    color: #363f55;
+    border: 1px solid white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 9px 12px -5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 9px 12px -5px rgba(0,0,0,0.15);
+    box-shadow: 0px 9px 12px -5px rgba(0,0,0,0.15);
+    transition: 0.2s ease all;
+}
+.link-column a:hover {
+    transform: translateY(1px);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #f4f4f4;
+}
+.link-column a i {
+    margin: 4px 8px 4px 4px;
+    background: -webkit-linear-gradient(0deg, #F493AA 0%, #F2D1C9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /*-------------- PURPOSE PAGE STYLES --------------------*/
 .vision-card-wrapper {
     display: flex;
@@ -690,6 +748,11 @@ textarea {
     }
     .vision-card {
         width: 400px;
+    }
+}
+@media only screen and (max-width: 1020px) {
+    .link-column {
+        width: 50%;
     }
 }
 @media only screen and (max-width: 850px) {
@@ -1020,6 +1083,14 @@ textarea {
     }
     .vision-card {
         width: 300px;
+    }
+    .link-section {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .link-column a {
+        width: 200px;
     }
 }
 @media only screen and (max-width: 410px) {
