@@ -1006,6 +1006,9 @@ textarea {
     form p {
         padding: 8px 0;
     }
+    .atomic, .molecular, .substance, .material {
+        bottom: 10%;
+    }
 }
 @media only screen and (max-width: 460px) {
     /*--- CONTACT FORM --- */
