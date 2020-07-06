@@ -315,6 +315,68 @@ iframe .svg {
     box-shadow: none;
     border: 2px solid #f4f4f4;
 }
+.link-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    color: white;
+    background: #CED3DC;
+    margin: 32px 0 0 0;
+    padding: 16px 0;
+}
+.link-section h2 {
+    width: 100%;
+    color: #363f55;
+}
+.link-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 25%;
+    min-height: 100px;
+    padding: 8px;
+    margin: 8px;
+    background: #f2f2f2;
+    border-radius: 10px;
+}
+.link-column h5 {
+    text-align: center;
+    color: #363f55;
+}
+.link-column a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 4px;
+    padding: 4px 16px 4px 16px;
+    width: auto;
+    height: 35px;
+    background: white;
+    color: #363f55;
+    border: 2px solid white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 9px 12px -5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 9px 12px -5px rgba(0,0,0,0.15);
+    box-shadow: 0px 9px 12px -5px rgba(0,0,0,0.15);
+    transition: 0.2s ease all;
+}
+.link-column a:hover {
+    transform: translateY(1px);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 2px solid #f4f4f4;
+}
+.link-column a i {
+    margin: 4px 8px 4px 4px;
+    background: -webkit-linear-gradient(0deg, #F493AA 0%, #F2D1C9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.1rem;
+}
 /*-------------- GUIDELINES PAGE STYLES --------------------*/
 .guidelines-card-wrapper {
     display: flex;
@@ -409,64 +471,6 @@ iframe .svg {
 }
 .card-col-right:hover .material {
     transform: translateY(-100px);
-}
-.link-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    height: auto;
-    color: white;
-    background: #CED3DC;
-    margin: 32px 0 0 0;
-    padding: 16px 0;
-}
-.link-section h2 {
-    width: 100%;
-    color: #363f55;
-}
-.link-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: 25%;
-    padding: 8px 0;
-}
-.link-column h5 {
-    text-align: center;
-    color: #363f55;
-}
-.link-column a {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 4px;
-    padding: 4px 4px 4px 16px;
-    width: 180px;
-    height: 35px;
-    background: white;
-    color: #363f55;
-    border: 2px solid white;
-    border-radius: 10px;
-    -webkit-box-shadow: 0px 9px 12px -5px rgba(0,0,0,0.15);
-    -moz-box-shadow: 0px 9px 12px -5px rgba(0,0,0,0.15);
-    box-shadow: 0px 9px 12px -5px rgba(0,0,0,0.15);
-    transition: 0.2s ease all;
-}
-.link-column a:hover {
-    transform: translateY(1px);
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    border: 2px solid #f4f4f4;
-}
-.link-column a i {
-    margin: 4px 8px 4px 4px;
-    background: -webkit-linear-gradient(0deg, #F493AA 0%, #F2D1C9 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 1.1rem;
 }
 
 /*-------------- PURPOSE PAGE STYLES --------------------*/
